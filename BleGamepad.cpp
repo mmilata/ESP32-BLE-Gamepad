@@ -412,7 +412,7 @@ void BleGamepad::begin(BleGamepadConfiguration *config)
         {
             // USAGE (Slider)
             tempHidReportDescriptor[hidReportDescriptorSize++] = 0x09;
-            tempHidReportDescriptor[hidReportDescriptorSize++] = 0x36;
+            tempHidReportDescriptor[hidReportDescriptorSize++] = 0x37;
         }
 
         // INPUT (Data,Var,Abs)
